@@ -1,0 +1,129 @@
+body{
+    width: 99vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 190, 190);
+    background-image:url(https://static.vecteezy.com/system/resources/thumbnails/007/815/632/small/stock-market-investment-trading-financial-coin-and-graph-chart-or-forex-for-analyze-profit-finance-business-trend-data-background-free-photo.jpg);
+  }
+  .fcc-btn {
+    background-color: rgb(85, 243, 132);
+    color: rgb(165, 55, 55);
+    padding: 15px 25px;
+    margin-top: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  /*"Conversor de Monedas". */
+  .h{
+    color:whitesmoke;
+    font-style:normal;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  
+  .principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    background-color: rgb(85, 243, 132);
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+  }
+  
+   /*  selectybutton_int1 y selectybutton_int2 */
+  .selectybutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .selectybutton_int1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5px;
+  }
+  
+  /* Div con clase selectybutton_int1 */
+  .selectybutton_int1 input{
+    text-align: center;
+    width: 25%;
+    height: 40%;
+    margin-top: 10px;
+  }
+  .selectybutton_int1 select{
+    height: 43%;
+    width: 51%;
+    text-align: center;
+  }
+  
+   /* Div con clase selectybutton_int2 */
+  .selectybutton_int2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 95%;
+    width: 100%;
+  }
+  .selectybutton_int2 select{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+  }
+  .selectybutton_int2 button{
+    margin-top: 5px;
+    width: 25%;
+    height: 40%;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: rgb(105, 176, 197);
+    font-size: 20px;
+  }
+  .p{
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(107, 44, 44);
+  }
+  
+  
+  
+  
+  
+  /* Se muestra el resultado de la conversión. */
+  .resultado{
+    font-size: 30px;
+    color: rgb(95, 30, 30);
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-s;
+  }
+  
+  /* Grafica, div que contiene a la etiqueta 'canvas'. */
+  .grafica{
+    width: 70vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin-top: 15px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+  }
+  .canvas{
+    width: 90%;
+    height: 100%;
+  }

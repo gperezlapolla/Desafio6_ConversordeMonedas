@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./Assets/styles.css">
+
+  <title>Conversor de monedas</title>
+</head>
+<body>
+  <a target="_blank" class="fcc-btn" href="https://github.com/gperezlapolla/Desafio6_ConversordeMonedas">Visite el repositorio Github de este Desafío haciendo click aquí</a>  
+    <h1><span id="error" class="h"></span></h1>
+    <h1 class="h">CONVERSOR DE MONEDAS</h1>
+
+    <main class="principal">
+    <section class="selectybutton">
+
+<!--  "Seleccione Moneda". -->
+      <div class="selectybutton_int1">
+        <p class="p">SELECCIONE MONEDA</p>
+
+          <select id="indicadorOrigen">
+          <option value="clp">Pesos Chilenos (CLP)</option>
+          <option value="dolar">Dólar</option>
+          <option value="euro">Euro</option>
+         </select>
+        <input type="text" id="cantidadAconvertir" placeholder="Ingrese aquí la cantidad">
+        </div>
+
+
+
+
+      <!-- "Seleccione indicador a evaluar". -->
+      <div class="selectybutton_int2">
+
+        <p class="p">SELECCIONE MONEDA A CONVERTIR</p>
+
+        <select id="indicadorAevaluar">
+          <option value=""> Moneda a Convertir </option>
+          <option value="dolar">Dólar</option>
+          <option value="euro">Euro</option>
+          <option value="uf">Unidad de Fomento</option>
+        </select>
+        <button id="convertir">
+          Convertir
+        </button>
+        </div>
+    </section>
+
+      <h3 class="resultado">Monto a recibir: <span id="resultado"></span></h3>
+  </main>
+  <!-- Contenedor para el elemento 'canvas' -->
+  <h1><span id="error1" class="h"></span></h1>
+  <div class="grafica">
+    <canvas id="myChart" class="canvas"></canvas>
+  </div>
+  
+  <script src="./Assets/script-js"></script>
+</body>
+</html>
